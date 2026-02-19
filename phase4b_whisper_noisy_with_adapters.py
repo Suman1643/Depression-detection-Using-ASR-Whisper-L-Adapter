@@ -120,7 +120,7 @@ def extract_all_noisy_features(use_gpu=False, encoder_only=False):
     # ══════════════════════════════════════════════════════════════════════
     print(f"  [2/3] Loading trained L-Adapters...", end=" ", flush=True)
     
-    adapter_bank = LAdapterBank(whisper_model=config.WHISPER_MODEL, verbose=False)
+    adapter_bank = LAdapterBank(whisper_model=config.WHISPER_MODEL)
     
     # Load adapter weights from trained model
     model_ckpt = config.CHECKPOINT_DIR / "best_model.pt"
