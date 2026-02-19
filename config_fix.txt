@@ -1,0 +1,13 @@
+# Auto-generated config suggestions based on your directory structure
+# Copy these lines into config.py (lines 14-22)
+
+from pathlib import Path
+
+ROOT_DIR = Path(r"C:\Users\Intern\Desktop\SumanKumar\Depression detection Using ASR Whisper L-Adapter\E-label")
+AUDIO_RAW_DIR = Path(r"C:\Users\Intern\Desktop\SumanKumar\Depression detection Using ASR Whisper L-Adapter\E-label\full-extended-audio")
+TRANSCRIPT_DIR = ROOT_DIR / "full-extended-transcript"
+
+TRAIN_CSV = Path(r"C:\Users\Intern\Desktop\SumanKumar\Depression detection Using ASR Whisper L-Adapter\E-label\train_split.csv")
+DEV_CSV = Path(r"C:\Users\Intern\Desktop\SumanKumar\Depression detection Using ASR Whisper L-Adapter\E-label\dev_split.csv")
+TEST_CSV = Path(r"C:\Users\Intern\Desktop\SumanKumar\Depression detection Using ASR Whisper L-Adapter\E-label\test_split.csv")
+LABELS_CSV = Path(r"C:\Users\Intern\Desktop\SumanKumar\Depression detection Using ASR Whisper L-Adapter\E-label\Detailed_PHQ8_Labels.csv")
